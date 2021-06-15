@@ -1,9 +1,8 @@
 <?php
 
-namespace understeam\fcm;
+namespace antonyz89\fcm;
 
 use paragraph1\phpFCM\Message;
-use paragraph1\phpFCM\Notification;
 use paragraph1\phpFCM\Recipient\Device;
 use Yii;
 use yii\base\Component;
@@ -12,6 +11,9 @@ use yii\base\InvalidParamException;
 /**
  * Client class dispatches paragraph1\phpFCM entities
  * @author Anatoly Rugalev <anatoly.rugalev@gmail.com>
+ *
+ * @property-read \paragraph1\phpFCM\Client $fcm
+ * @property-read \GuzzleHttp\ClientInterface $httpClient
  */
 class Client extends Component
 {

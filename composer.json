@@ -1,22 +1,18 @@
 {
-    "name": "understeam/yii2-fcm",
-    "description": "Yii2 Firebase Cloud Messaging adapter",
+    "name": "antonyz89/yii2-fcm",
+    "description": "Yii2 Firebase Cloud Messaging adapter ( originally made by understeam )",
     "type": "yii2-extension",
     "require": {
         "yiisoft/yii2": "^2",
-        "paragraph1/php-fcm": "^0.7"
+        "paragraph1/php-fcm": "dev-master",
+        "ext-json": "*"
     },
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Anatoly Rugalev",
-            "email": "anatoly.rugalev@gmail.com"
-        }
-    ],
+    "authors": [],
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "understeam\\fcm\\": "src"
+            "antonyz89\\fcm\\": "src"
         }
     }
 }
