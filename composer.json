@@ -9,7 +9,6 @@
     },
     "license": "MIT",
     "authors": [],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "antonyz89\\fcm\\": "src"
