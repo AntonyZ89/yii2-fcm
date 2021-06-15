@@ -2,6 +2,7 @@
     "name": "antonyz89/yii2-fcm",
     "description": "Yii2 Firebase Cloud Messaging adapter ( originally made by understeam )",
     "type": "yii2-extension",
+    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "^2",
         "paragraph1/php-fcm": "dev-master",
